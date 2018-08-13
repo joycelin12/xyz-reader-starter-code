@@ -29,6 +29,14 @@
         android:background="?colorPrimary"
         android:elevation="8dp">
 
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            android:elevation="4dp">
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -45,6 +53,8 @@
                 android:contentDescription="@string/app_name" />
 
         </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
     </FrameLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+ </android.support.design.widget.CoordinatorLayout>
